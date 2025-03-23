@@ -65,4 +65,8 @@ width: 400px;
 transform: scale(-1,1);
 }
 
+#arrowButton{
+    transform: scale(-1,1);
+}
+
 

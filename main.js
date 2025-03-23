@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const helpButton = document.getElementById("Help");
   helpButton.addEventListener("click", function () {
     window.location.href = "help.html";
+  
   });
-
 document.getElementById("Upload").addEventListener("click", function () {
   // Trigger the hidden file input
   document.getElementById("fileInput").click();
@@ -25,35 +25,25 @@ document.getElementById("fileInput").addEventListener("change", function () {
   }
 });
 
-
+/* 
   // Link to the "UPLOAD A LINK" button (no id, so access by class)
   const uploadLinkButton = document.querySelector(".button:nth-of-type(3)");
   uploadLinkButton.addEventListener("click", function () {
       alert("Upload Link button clicked!");
-  });
+  });*/
 });
   
-
-document.getElementById("ChangeImageButton").addEventListener("click",function ()){
-
-
-  let img = document.getElementById("help");
-
-  img.src = img.src.includes("")
-
-
-
-
-}
-
 //For arrow button
 function changeImage() {
   const buttonImage = document.getElementById("arrowButton");
   // Check the current image source and toggle to the other image
+  console.log("entered click");
   if (buttonImage.src.includes("Variant2.png")) {
       buttonImage.src = "Arrow Button.png";
+      console.log("Should be new image");
   } else {
-      buttonImage.src = "Arrow Button.png";
+      buttonImage.src = "Varient2.png";
+      console.log("Should be old image");
   }
 }
 
