@@ -1,32 +1,68 @@
-/* styles.css */
-body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #3B3B3B;
-    height: 100%;
-}
+/* General styles */
 
-header{
-    display: flex;
-    background-color: #3B3B3B;
-    padding: 1em;
+.header {
+    background-image: linear-gradient(to right, #94AF8D, #F5F0A6);
+    border-radius: 10px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    
+    color: black;
+    grid-column: 3;
     text-align: center;
+    margin-top: 20px;
 }
 
-main{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #3B3B3B;
+.headerBox{
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 16% 14% 40% 14% 16%;
 }
 
-.button{
-    background-color: #FFD700;
-    color: #3B3B3B;
-    padding: 0.5em 1em;
+#Help{
+    background-color: #F5F0A6;
+    color: black;
+    grid-column: 5;
+    margin: 20px;
+    font: bold;
+    font-size:200%;
+}
+
+.button {
+    background-color: #D9D9D9; /* Darker background for buttons */
+    color: black; /* White text for buttons */
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 0.5em;
+    padding: 10px 10px;
+    cursor: hand;
+    border-radius: 10px;
+    margin: 20px;
 }
+
+.button:hover {
+    background-color: #555; /* Slightly lighter on hover */
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    grid-column: 3;
+}
+
+.flexContainer{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 16% 20% 28% 20% 16%;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image-container img{
+width: 400px;
+transform: scale(-1,1);
+}
+
+

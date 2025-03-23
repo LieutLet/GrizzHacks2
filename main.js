@@ -1,3 +1,4 @@
+
 // Example JavaScript to interact with the page
 console.log("JavaScript is connected!");
 
@@ -32,3 +33,16 @@ document.getElementById("fileInput").addEventListener("change", function () {
   });
 });
   
+
+document.getElementById("ChangeImageButton").addEventListener("click",function ()){
+
+
+  let img = document.getElementById("help");
+
+  img.src = img.src.includes("")
+
+
+
+
+}
+
