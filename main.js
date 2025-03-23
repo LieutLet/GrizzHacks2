@@ -9,3 +9,14 @@ document.getElementById("ChangeImageButton").addEventListener("click",function (
 
 
 }
+
+//For arrow button
+function changeImage() {
+  const buttonImage = document.getElementById("arrowButton");
+  // Check the current image source and toggle to the other image
+  if (buttonImage.src.includes("Variant2.png")) {
+      buttonImage.src = "Arrow Button.png";
+  } else {
+      buttonImage.src = "Arrow Button.png";
+  }
+}
