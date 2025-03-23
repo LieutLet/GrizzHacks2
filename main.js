@@ -1,9 +1,6 @@
 
 function changeImage(id,newSrc){
-
   document.getElementById(id).src=newSrc;
-
-
 }
 
 function changeBack(id,originalSrc){
@@ -44,7 +41,7 @@ document.getElementById("fileInput").addEventListener("change", function () {
 });
   
 //For arrow button
-function changeImage() {
+function changeArrowImage() {
   const buttonImage = document.getElementById("arrowButton");
   // Check the current image source and toggle to the other image
   console.log("entered click");
