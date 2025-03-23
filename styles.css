@@ -27,6 +27,7 @@
     font-size:200%;
 }
 
+
 .button {
     background-color: #D9D9D9; /* Darker background for buttons */
     color: black; /* White text for buttons */
@@ -69,4 +70,15 @@ transform: scale(-1,1);
     transform: scale(-1,1);
 }
 
+
+#goggins{
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 100%;
+    width: 150px;
+    height: 145px;
+
+}
 
