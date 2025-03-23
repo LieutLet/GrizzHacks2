@@ -2,7 +2,6 @@
 
 .header {
     background-image: linear-gradient(to right, #94AF8D, #F5F0A6);
-    /*background-color: white;*/
     border-radius: 10px;
     padding-top: 17px;
     padding-bottom: 10px;
@@ -32,9 +31,10 @@
     background-color: #D9D9D9; /* Darker background for buttons */
     color: black; /* White text for buttons */
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: hand;
     border-radius: 10px;
+    margin: 20px;
 }
 
 .button:hover {
@@ -43,6 +43,16 @@
 
 .buttonContainer{
     display: flex;
-    gap: 0px;
-    grid-template-columns: 16% 14% 40% 14% 16%;
+    flex-direction: column;
+    gap: 10px;
+    grid-column: 3;
 }
+
+.flexContainer{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 16% 20% 28% 20% 16%;
+}
+
+
