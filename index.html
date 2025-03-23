@@ -42,14 +42,25 @@
     </header>
 
     <main>
+
+        <div class = "image-container">
+
+            <img src ="Group 11.png" alt="Brain Rot">
+
+            <input id="arrowButton" type="image" src="Variant2.png" alt="arrow button" onclick="changeImage()">
+            
+            <img src = "Group 10.png " alt = "Clean Brain">
+        </div>
+
         <div class = flexContainer>
             <div class = "buttonContainer">
                 <button class="button" id="Upload">UPLOAD A FILE</button>
-                <button class="button" id = "Link">UPLOAD A LINK</button>
-
+                <input type="file" id="fileInput" style="display: none;">
+                <button class="button" id = "LINK">UPLOAD A LINK</button>
             </div>
         </div>
-        <input id="goggins" type="image" src="gogginsDucky.png">
+
+    <input id="goggins" type="image" src="gogginsDucky.png">
     </main>
 
     <script src="main.js"></script>
