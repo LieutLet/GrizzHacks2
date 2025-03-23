@@ -1,3 +1,14 @@
+javascript
+// Example JavaScript to interact with the page
+console.log("JavaScript is connected!");
+
+document.addEventListener("DOMContentLoaded", () => {
+    const button = document.querySelector("button");
+    button.addEventListener("click", () => {
+        alert("Button clicked!");
+    });
+});
+
 // Wait for the DOM to load
 document.addEventListener("DOMContentLoaded", function () {
   // Link to the "HELP" button
